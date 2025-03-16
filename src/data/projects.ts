@@ -49,15 +49,15 @@ export const projects: Project[] = [
     title: "React Signup Form",
     shortDescription: "A type-safe signup form with comprehensive validation using React Hook Form and Zod.",
     description: "Implemented a modern signup form with robust validation using React Hook Form and Zod. The form ensures data integrity through TypeScript integration and provides real-time feedback to users.",
-    technologies: ["React", "TypeScript", "React Hook Form", "Zod"],
+    technologies: ["React", "TypeScript", "React Hook Form", "Zod", "TailwindCSS"],
     features: [
-      "Real-time form validation",
-      "Type-safe implementation",
+      "Type-safe form validation",
+      "Real-time error feedback",
       "Custom validation rules",
-      "Error handling and feedback",
-      "Responsive design"
+      "Responsive design",
+      "Accessible form elements"
     ],
-    image: "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?q=80&w=1472&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop",
     category: "web"
   },
   {

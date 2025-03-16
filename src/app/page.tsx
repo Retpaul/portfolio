@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import { About } from "@/components/sections/about";
 import { Projects } from "@/components/sections/projects";
 import { Experience } from "@/components/sections/experience";
 import { Blog } from "@/components/sections/blog";
 import { Contact } from "@/components/sections/contact";
 import { Tools } from "@/components/sections/tools";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   const scrollTo = (id: string) => {
@@ -66,7 +66,7 @@ export default function Home() {
               Contact Me
             </Button>
           </motion.div>
-        </div>
+        </div> 
       </motion.header>
 
       {/* Main Sections */}
@@ -122,7 +122,7 @@ export default function Home() {
         id="contact"
       >
         <Contact />
-      </motion.section>
+      </motion.section> 
     </main>
   );
 }

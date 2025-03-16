@@ -13,7 +13,7 @@ const posts = [
     date: "2024-02-28",
     category: "Development",
     readTime: "5 min read",
-    image: "/blog/nextjs-scaling.jpg"
+    image: "https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=1300&auto=format&fit=crop"
   },
   {
     title: "Implementing Zero-Trust Security in Modern Applications",
@@ -21,7 +21,7 @@ const posts = [
     date: "2024-02-25",
     category: "Security",
     readTime: "8 min read",
-    image: "/blog/security.jpg"
+    image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=1300&auto=format&fit=crop"
   },
   {
     title: "IoT Device Management Best Practices",
@@ -29,7 +29,7 @@ const posts = [
     date: "2024-02-20",
     category: "IoT",
     readTime: "6 min read",
-    image: "/blog/iot.jpg"
+    image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=1300&auto=format&fit=crop"
   },
   {
     title: "Containerization and Microservices Architecture",
@@ -37,7 +37,7 @@ const posts = [
     date: "2024-02-15",
     category: "DevOps",
     readTime: "7 min read",
-    image: "/blog/containers.jpg"
+    image: "https://images.unsplash.com/photo-1605745341112-85968b19335b?q=80&w=1300&auto=format&fit=crop"
   }
 ];
 
