@@ -16,9 +16,10 @@ export function Tools() {
 
       <div className="container mx-auto px-4 relative">
         <div className="max-w-2xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4 gradient-text">Tech Stack & Tools</h2>
+          <h2 className="text-3xl font-bold mb-4 gradient-text">{`Tech Stack & Tools`}</h2>
           <p className="text-neutral-600 dark:text-neutral-300">
-            Here are the technologies, frameworks, and tools I use to bring ideas to life.
+            {`            Here are the technologies, frameworks, and tools I use to bring ideas to life.
+`}{" "}
           </p>
         </div>
 

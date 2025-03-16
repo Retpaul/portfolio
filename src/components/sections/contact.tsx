@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button";
 import { useRef } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-}
+// interface FormData {
+//   name: string;
+//   email: string;
+//   message: string;
+// }
 
 const socialLinks = [
   {
@@ -54,8 +54,8 @@ export function Contact() {
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold mb-4 gradient-text">Get in Touch</h2>
           <p className="text-neutral-600 dark:text-neutral-300">
-            I am always interested in hearing about new projects and opportunities.
-            Whether you have a question or just want to say hi, feel free to reach out!
+            {`I am always interested in hearing about new projects and opportunities.
+            Whether you have a question or just want to say hi, feel free to reach out!`}
           </p>
         </div>
 

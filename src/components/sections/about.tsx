@@ -66,10 +66,10 @@ export function About() {
             className="space-y-6"
           >
             <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed">
-              As a Full-Stack Engineer, I specialize in building scalable and
+             {` As a Full-Stack Engineer, I specialize in building scalable and
               efficient web applications using modern technologies. My expertise
               spans both frontend and backend development, with a focus on creating
-              seamless user experiences.
+              seamless user experiences.`}
             </p>
 
             <div className="space-y-4">
