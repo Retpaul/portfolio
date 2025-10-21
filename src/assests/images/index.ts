@@ -1,0 +1,1 @@
+export {default as profile } from "./me.png"

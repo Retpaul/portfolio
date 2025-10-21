@@ -16,7 +16,7 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio - Full Stack Engineer",
+  title: "Retyit Paul - Full Stack Engineer",
   description: "Full-Stack Engineer specializing in React, Next.js, and Node.js. Expertise in building scalable web applications with modern technologies.",
   icons: {
     icon: [
