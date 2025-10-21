@@ -1,10 +1,10 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { Project } from "@/data/projects";
 import { Button } from "./ui/button";
 import { FaGithub, FaExternalLinkAlt, FaTimes } from "react-icons/fa";
 import Image from "next/image";
+import { Project } from "@/lib/types";
 
 interface ProjectModalProps {
   project: Project;
