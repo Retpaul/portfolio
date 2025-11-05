@@ -17,16 +17,20 @@ const firaCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: "Retyit Paul - Full Stack Engineer",
-  description: "Full-Stack Engineer specializing in React, Next.js, and Node.js. Expertise in building scalable web applications with modern technologies.",
+  description:
+    "Full-Stack Engineer specializing in React, Next.js, and Node.js. Expertise in building scalable web applications with modern technologies.",
   icons: {
     icon: [
       {
         url: "https://img.icons8.com/fluency/48/code.png",
         sizes: "48x48",
-        type: "image/png"
-      }
-    ]
-  }
+        type: "image/png",
+      },
+    ],
+  },
+  verification: {
+    google: "IB6lvf2De1C1nrFc3D1TPxHp0Pdh6yd7QPJXwrSvps8", // ✅ Your verification code goes here 
+  },
 };
 
 export default function RootLayout({
@@ -35,8 +39,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
-      <body className={`${inter.variable} ${firaCode.variable} min-h-screen bg-gradient-to-b from-neutral-50 to-neutral-200 dark:from-neutral-900 dark:to-black text-neutral-900 dark:text-neutral-50 antialiased`}>
+    <html lang="en">
+      <body
+        className={`${inter.variable} ${firaCode.variable} min-h-screen bg-gradient-to-b from-neutral-50 to-neutral-200 dark:from-neutral-900 dark:to-black text-neutral-900 dark:text-neutral-50 antialiased`}
+      >
         <ThemeProvider>
           <NavMenu />
           {children}
